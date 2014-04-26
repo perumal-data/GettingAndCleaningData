@@ -4,8 +4,8 @@ Tidy data set is averages of Mean Values and Standard deviations extract of UCI 
 - Averages for each of the 66 attributes are in columns 3...68. 
 
 Column Details. 
-1. Subject                                                                 : Integer  Subject Ids
-2. Activity                                                                : Factor with 6 levels  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+1. Subject                                                                 : Integer  Subject Ids 
+2. Activity                                                                : Factor with 6 levels  WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING 
 3. Body Acceleration Time - Mean Value ()-X                                : Number  
 4. Body Acceleration Time - Mean Value ()-Y                                : Number  
 5. Body Acceleration Time - Mean Value ()-Z                                : Number  

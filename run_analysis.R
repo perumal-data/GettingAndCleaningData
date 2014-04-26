@@ -111,7 +111,7 @@ add_activity_description<-function(tidy.data) {
     tidy.data <- merge(activity.label, tidy.data,  by="Activity_Code")
     
     # merge moves activity _code as first column.
-    # move Subject as first column after merge      
+    # move Subject as first column after merge and removes the activity code column  
     subject_idx <- grep("Subject", names(tidy.data))
     activity_code_idx <- grep("Activity_Code", names(tidy.data))
     tidy.data <- tidy.data[, c(subject_idx , (1:ncol(tidy.data))[-subject_idx][-activity_code_idx])]
